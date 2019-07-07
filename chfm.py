@@ -1,9 +1,7 @@
-#Test Cases
+
 from statistics import mean
 
-t = int(input())
-
-for i in range(t):
+for i in range(int(input())):
     
     n = int(input())
     a = list(map(int,input().split()))
